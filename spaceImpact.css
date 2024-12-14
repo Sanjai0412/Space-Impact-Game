@@ -1,0 +1,63 @@
+
+#game-interface{
+    height: 300px;
+    width: 900px;
+    border: solid rgb(200, 200, 200) ;
+    display: flex;
+}
+
+#space-ship{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+
+}
+
+#ufo-img{
+    height: 40px;
+    width: 40px;
+}
+
+#alien-img{
+    height: 200px;
+    width: 80px;
+}
+#bullet-interface{
+    height: 300px;
+    width: 900px;
+}
+#alien{
+    height: 200px;
+    width: 80px;
+    border-radius: 30%;
+    background-color: rgb(62, 60, 60);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+.bullet{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: rgb(0, 68, 255);
+    position: absolute;
+}
+
+.alien-bullet{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+}
+
+#alien-hippoints{
+    position: relative;
+    top: 0px;
+    left: 800px;
+}
